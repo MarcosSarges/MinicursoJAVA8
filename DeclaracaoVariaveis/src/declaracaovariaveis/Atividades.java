@@ -10,24 +10,24 @@ package declaracaovariaveis;
  * @author MP
  */
 public class Atividades {
-    //Exercicio 1
-    //Declare uma variavel que receba seu nome e depois imprima ela;
+    //Exercício 1
+    //Declare uma variável que receba um nome e depois imprima ela;
 
-    //Exercicio 2
-    //Escreva um codigo que tenha uma varivel no qual ela recebe 
+    //Exercício 2
+    //Escreva um código que tenha uma variável no qual ela recebe 
     //a soma de a=5 e b=2 e depois imprima o resultado;
    
-    //Exercicio 3
-    //Escreva um codigo que tenha uma variavel com ponto flutuante no qual
+    //Exercício 3
+    //Escreva um código que tenha uma variável com ponto flutuante no qual
     //ela receba a divisão de a=2.8 b=8 c=(4/2)
-    // expressão ((a/b)/c)
+    // expressão ((a/b)/c);
     
-    //Exercicio 4
-    //Escreva um codigo que calcule o resto de dois numeros quais quer 
-    //e depois imprima 
+    //Exercício 4
+    //Escreva um código que calcule o resto de dois números quaisquer 
+    //e depois imprima;
     
-    //Exercicio 5
-    //Escreva um codigo no qual uma variavel resultado receba a média de 3 valores
+    //Exercício 5
+    //Escreva um código no qual uma variável resultado receba a média de 3 valores.
     
     public static void main(String[] args) {
      
