@@ -1,51 +1,44 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package condicionais;
 
-/**
- *
- * @author MP
- */
-public class Atividades {
-    //Exercicio 1
-    //Elabore um codigo que verifica se a=(b+c) é maior que b=(c*2), c = 2
-    // se a>b imprima "A variavel A é maior"
-    // senão imprima "A variavel A é menor"
 
-    //Exercicio 2
-    //Elabore um codigo que verifica se o valor passado é impar ou par
-    // se (a%2 == 0) imprima "A variavel A é par"
-    // senão imprima "A variavel A é impar"
-    //Exercicio 3
+public class Atividades {
+    //Exercício 1
+    //Elabore um código que verifica se a=(b+c) é maior que b=(c*2), c = 2
+    // Se a>b imprima "A variavel A é maior"
+    // Se não, imprima "A variavel A é menor"
+
+    //Exercício 2
+    //Elabore um código que verifica se o valor passado é ímpar ou par
+    // Se (a%2 == 0) imprima "A variável A é par"
+    // Se não, imprima "A variável A é ímpar"
+    //Exercício 3
     /*
         Escreva um programa para ler 3 notas de um aluno e informar se
         o aluno está aprovado, reprovado ou se deverá fazer a prova
         final.
 
-        O aluno será Aprovado a média de suas notas for > 6 e for <= 10
-        O aluno será Reprovado se a média de suas notas for >=0 e < 4
-        O aluno deverá fazer a prova se a média de suas notas for >= 4 e < 6
-        Se a nota do aluno não se enquandrar em nenhuma situação deve-se imprimir "Valor invalido"    
+        O aluno será Aprovado se a média de suas notas for x>6 e for x<=10
+        O aluno será Reprovado se a média de suas notas for x>=0 e x<4
+        O aluno deverá fazer a prova se a média de suas notas for x>=4 e x<6
+        Se a nota do aluno não se enquandrar em nenhuma situação deve-se imprimir "Valor inválido"    
         Média das notas: (Nota1 + Nota2 + Nota3) / 3
      */
-    //Exercicio 4:
+    //Exercício 4:
     /*
-        Escreva um codigo que a patir de um valor inteiro
-        deve-se imprima o dia correspondente ao dia da semana
+        Escreva um código que a patir de um valor inteiro
+        deve-se imprimir o dia correspondente ao dia da semana
      */
-    // Exercicio 5:
+    // Exercício 5:
     /*
-        Escreva um codigo que simule um 
-        login onde a senha pode ser o cpf ou o aniversario
+        Escreva um código que simule um 
+        login onde a senha pode ser o cpf ou o aniversário
         se uma das opções for verdadeira imprima "Login com sucesso"
-        senap imprima "Login ou senha invalida"
+        se não, imprima "Login ou senha inválida"
     
      */
     public static void main(String[] args) {
-
+      
     }
 
     //Resposta 1:
