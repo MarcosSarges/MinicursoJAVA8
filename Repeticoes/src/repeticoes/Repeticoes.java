@@ -16,9 +16,7 @@ public class Repeticoes {
             System.out.println(condicional);
             condicional = condicional + 1;
         }
-        
-        
-        
+
         /*
         #Visualg
         para <variável> de <valor-inicial> ate <valor-limite> [passo <incremento>] faca
@@ -30,7 +28,5 @@ public class Repeticoes {
             System.out.println("Estou aprendendo for em JAVA");
             System.out.println(contador);
         }
-        
     }
-
 }
