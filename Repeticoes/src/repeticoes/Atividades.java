@@ -4,11 +4,7 @@
  * and open the template in the editor.
  */
 package repeticoes;
-
-
-
 /**
- *
  * @author MP
  */
 public class Atividades {
@@ -33,17 +29,18 @@ public class Atividades {
         }
     }
      */
+
 //Resposta 2
-/* 
+/*
     int i = 0;
-    while (i <= 10) {
+    while (i < 10) {
         System.out.println(i * (i + 1));
         i++;
     }
      */
+
  /*Resposta 3
-    //import java.util.Scanner;
-    // instancia para ler o teclado 
+    //import java.util.Scanner;     //<--instancia para ler o teclado (Scanner)
     Scanner ler = new Scanner(System.in);
     int idade;
     int contador = 0;
@@ -56,13 +53,14 @@ public class Atividades {
     System.out.println("A quantidade de pessoas "
             + "com mais de 18 anos é: " + contador);
      */
+
 //Resposta 4
 /*
-        long fat = 1;
-        int valor = 20; //ou qualquer outro valor que queira calcular;
-        for (int i = 2; i <= valor; i++) {
-            fat *= i;
-        }
-        System.out.println("O fatorial de " + valor + " é igual a " + fat);
+    long fat = 1;
+    int valor = 20; //ou qualquer outro valor que queira calcular;
+    for (int i = 2; i <= valor; i++) {
+        fat *= i;
+  }
+    System.out.println("O fatorial de " + valor + " é igual a " + fat);
      */
 }
