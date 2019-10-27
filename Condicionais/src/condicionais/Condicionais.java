@@ -18,12 +18,14 @@ public class Condicionais {
         //<sequência-de-comandos-2>
         //}
         // Vamos testar cada operador
+
         //IGUAL
         if (saldo == 1) {
             System.out.println("O resultado do teste é true");
         } else {
             System.out.println("O resultado do teste é false");
         }
+
         //DIFERENTE
         if (saldo != 1) {
             System.out.println("O resultado do teste é true");
@@ -37,18 +39,21 @@ public class Condicionais {
         } else {
             System.out.println("O resultado do teste é false");
         }
+
         // MAIOR OU IGUAL
         if (saldo >= 1) {
             System.out.println("O resultado do teste é true");
         } else {
             System.out.println("O resultado do teste é false");
         }
+
         //MENOR
         if (saldo < 1) {
             System.out.println("O resultado do teste é true");
         } else {
             System.out.println("O resultado do teste é false");
         }
+
         //MENOR OU IGUAL
         if (saldo <= 1) {
             System.out.println("O resultado do teste é true");
@@ -58,7 +63,7 @@ public class Condicionais {
 
         // Variavel booleana
         boolean teste = true;
-        // o proprio if já verifica o valor da variavel
+        // o proprio if já verifica o valor da variavel, ele verificar se a variavel é True
         if (teste) {
             System.out.println("A variavel teste é verdadeira");
         } else {
@@ -66,18 +71,20 @@ public class Condicionais {
         }
 
         // testes com duas ou mais variaveis e condicionais
-        // E
+        // 'E' é igual a '&&' na programação
         if (saldo == 2 && teste) {
             System.out.println("Duas condições, no minimo 1 verdade");
         } else {
             System.out.println("Uma ou as duas condições são falsas");
         }
-        // OU
+
+        // 'OU' é igual a '||' na programação
         if (saldo == 2 || teste) {
             System.out.println("Duas condições, no minimo 1 verdade");
         } else {
             System.out.println("As duas condições são falsas");
         }
+
         //NÃO ou NEGAÇÃO
         teste = true;
         if (!teste) {
@@ -106,8 +113,7 @@ public class Condicionais {
                 <seqüência-de-comandos-extra>
         }
         */
-        
-        
+
         saldo = 1;
         switch (saldo) {
             case 1:
@@ -116,7 +122,5 @@ public class Condicionais {
             default:
                 System.out.println("Valor invalido");
         }
-
     }
-
 }
