@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Herenca;
+package Heranca;
 
 /**
  *
@@ -19,6 +19,7 @@ public class Teste {
         Filha filha = new Filha();
         filha.setNome("Filha");
         filha.andar();
+        filha.brincar(filha.getNome());
    
     }
 }
